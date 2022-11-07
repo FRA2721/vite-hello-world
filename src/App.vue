@@ -1,7 +1,7 @@
 <!-- script -->
 <script>
 import AppTitle from './components/AppTitle.vue';
-// import AppHero from './components/AppHero.vue';
+import AppHero from './components/AppHero.vue';
 
 export default {
   data(){
@@ -11,7 +11,7 @@ export default {
 
   components: {
     AppTitle,
-    // AppHero
+    AppHero
 
   },
 }
@@ -23,7 +23,7 @@ export default {
 <!-- template-section -->
 <template>
   <AppTitle />
-  <!-- <AppHero /> -->
+  <AppHero />
 </template>
 <!-- /template-section -->
 
