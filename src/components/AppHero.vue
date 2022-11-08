@@ -1,6 +1,7 @@
 <!-- script -->
 <script>
 export default{
+    name: "AppHero",
     data(){
         return{
            text: "RED DICE",

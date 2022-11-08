@@ -1,6 +1,7 @@
 <!-- script -->
 <script>
 export default{
+    name: "AppTitle",
     data(){
         return{
             greeting: "Hello World!!! by Francesco Cimino"
